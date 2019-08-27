@@ -1,8 +1,8 @@
-Foo north=Bar west=Baz south=Qu-ux
-Bar south=Foo west=Bee
-Baz north=Qu-ux west=Bee south=Foo
-Qu-ux north=Foo west=Baz
-Bee south=Qu-ux west=Foo east=Baz
+Foo north=Bar west=Baz south=Qu-ux east=Bee
+Bar south=Foo west=Bee east=Qu-ux north=Baz
+Baz north=Qu-ux east=Foo south=Bar
+Qu-ux north=Foo west=Bar south=Baz
+Bee west=Foo east=Bar
 Bangalore south=Qu-ux north=mysore
 Mysore south=Hubli west=Mangalore east=Dharwad
 Mangalore south=Foo west=Mysore east=Bangalore north=Hubli

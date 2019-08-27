@@ -36,10 +36,12 @@ func main() {
 	// Check if the alien have travelled more than 10000 iterations
 	//If yes, Exit the progarm and print out the remaining map of the world
 	if aliens.Count>=10000{
-		fmt.Println("\nAliens Moved More than 10000 times")
+		fmt.Println("\n", len(aliens.PresentAlienCity), " alien/alien's still exist and have moved more than 10000 times")
+		//fmt.Println("\nAliens Moved More than 10000 times")
 		aliens.RemainingMap()
 		os.Exit(0)
 	}
 
 	time.Sleep(time.Millisecond*30000)
 }	
+
