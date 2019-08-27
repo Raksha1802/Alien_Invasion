@@ -65,6 +65,7 @@ When aliens dont end up in the same city, i.e when they cannot fight and destroy
 
 Additioanlly print the reamining world map:
 
+#### Note: More than one scenario can occur for a single simulation run.
 
 
 
