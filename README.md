@@ -35,33 +35,33 @@ Some of the outcomes expected out of the solution:
 ## Scenario 1:
 When two aliens end up in the same city/palce they fight and destroy each other,then will print out a message like:
 
-### "City Bar has been destroyed by alien 3 and alien 7"
+#### "City Bar has been destroyed by alien 3 and alien 7"
 
 ## Scenario 2:
 If all the cities are destroyed and there still exists some aliens, then will print out a message like:
 
-### "All the cities have been destroyed by aliens and still some aliens survive"
+#### "All the cities have been destroyed by aliens and still some aliens survive"
 
 ## Scenario 3: 
 If all the cities and aliens are destroyed, then will print out a message like:
 
-### "All cities and aliens have been destroyed"
+#### "All cities and aliens have been destroyed"
 
 ## Scenario 4:
 When all the aliens are destroyed but still some cities reamain safe, then will print out a message like:
 
-### "All the aliens sucessfully destroyed"
+#### "All the aliens sucessfully destroyed"
 
 Additionally will print the remaining world map:
 
 Example: If "Foo north=Bar west=Baz south=Qu-ux" is the initial map of the city Foo, and if cities Bar and Qu-ux have been destroyed along with aliens, then the map for the city Foo would look something like:
 
-### Foo north= west=Baz south=
+#### Foo north= west=Baz south=
 
 ## Scenario 5:
 When aliens dont end up in the same city, i.e when they cannot fight and destroy each other, continue routing the aliens to new city for >10000 times, and if alien has moved at more than 10,000 times, then print out a message like:
 
-### "Aliens Moved More than 10000 times"
+#### "Aliens Moved More than 10000 times"
 
 Additioanlly print the reamining world map:
 
